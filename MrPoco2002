@@ -1,0 +1,16 @@
+me='mohammad'
+mohammad=24
+sister='mottahareh'
+mottahareh=24
+mother='zahra'
+zahra=53
+brother='amir'
+amir=32
+father='hasan'
+hasan=60
+location='iran west of tehran'
+print(mother,brother,sister,me,father,location)
+print('we trust in god')
+if zahra<hasan:
+  readme='my mother is so lonely'
+  print(amir,mottahareh,mohammad)
