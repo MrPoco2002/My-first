@@ -13,4 +13,11 @@ print(mother,brother,sister,me,father,location)
 print('we trust in god')
 if zahra<hasan:
   readme='my mother is so lonely'
-  print(amir,mottahareh,mohammad)
+print(amir,mottahareh,mohammad)
+
+readme
+if mohammad>amir:
+  readme='you are ok'
+print(mother,zahra,'take damages an fly')
+
+readme
