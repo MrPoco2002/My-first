@@ -12,12 +12,12 @@ location='iran west of tehran'
 print(mother,brother,sister,me,father,location)
 print('we trust in god')
 if zahra<hasan:
-  readme='my mother is so lonely'
-  print(amir,mottahareh,mohammad)
+    readme='my mother is so lonely'
+    print(amir,mottahareh,mohammad)
 
 readme
 if mohammad>amir:
-  readme='life is hell for you man'
-  print(mother,father,sister,brother,location,'what i can to do')
+    readme='life is hell for you man'
+    print(mother,father,sister,brother,location,'what i can to do')
 
-  readme
+readme
