@@ -21,3 +21,14 @@ if mohammad>amir:
     print(mother,father,sister,brother,location,'what i can to do')
 
 readme
+for mohammad in['empty','easy',5]:
+    print(me)
+    print(mohammad)
+    print('hello how are you are you fine?')
+    print(mohammad*3)
+
+for mottahareh in(1,9):
+    print(mottahareh,mottahareh/mottahareh)
+    print('everything is good very good is nice you know')
+
+
