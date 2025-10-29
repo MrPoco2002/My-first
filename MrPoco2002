@@ -27,7 +27,7 @@ for mohammad in['empty','easy',5]:
     print('hello how are you are you fine?')
     print(mohammad*3)
 
-for mottahareh in(1,9):
+for mottahareh in range(1,9):
     print(mottahareh,mottahareh/mottahareh)
     print('everything is good very good is nice you know')
 
