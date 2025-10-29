@@ -36,8 +36,15 @@ def a(a):
 
 a(1)
 a(32)
-a("hossein")
 for b in ["saeed","maryam","karim",a(332)]:
-    print("hello",b,a(22))
+    print("hello",b)
     print("i prouad to you mohammad")
+
+def c(a,b,c):
+    print(a+b+c)
+
+c(1,2,3)
+c("amir","ali","masod")
+
+
 
