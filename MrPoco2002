@@ -45,9 +45,14 @@ def c(a,b,c):
 
 c(1,2,3)
 c("amir","ali","masod")
+
 100%50
 100%25
 100%100
-100&75
-100*23
+100%75
+100%23
+
+for a in range (2,11):
+    if 11%a==0:
+        print("OK this is not a prime number at all")
 
