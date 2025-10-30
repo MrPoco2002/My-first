@@ -74,6 +74,17 @@ for d in range(2,a):
             print("for",d,"this is a eaven number")
         else:
             print("this is a prome number")
-            
+def a(s):
+    d=True
+    for g in range (2,s):
+        if s%g==0:
+            d=False
+    return d
+for g in range (1,101):
+    print(g,a(g))
+
+                    
+
+
 
 
