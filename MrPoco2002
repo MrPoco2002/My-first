@@ -72,5 +72,8 @@ for d in range(2,a):
         s=True
         if s:
             print("for",d,"this is a eaven number")
+        else:
+            print("this is a prome number")
+            
 
 
