@@ -65,5 +65,12 @@ a=77
 for s in range(2,a):
     if a%s==0:
         print("for",s,"this is a eaven number")
+a=333
+s=False
+for d in range(2,a):
+    if a%d==0:
+        s=True
+        if s:
+            print("for",d,"this is a eaven number")
 
-        
+
