@@ -118,10 +118,10 @@ def a(s):
     return d
 
 f=0
-for g in range(1,1000001):
+for g in range(1,1001):
     if a(g):
         f=f+1
-        print(g,f)
+        print(a(g),f)
 
 
                    
