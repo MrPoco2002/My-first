@@ -1,7 +1,1 @@
-My name is MrPoco and I am currently 24 years old and I started learning Python programming
-I have a three-step plan that I will reach in about three years, God willing
-Between the Fall and the Rise.
-
-
-
                       "Here I will solve the problems of the projecteuler.net site"
