@@ -5,6 +5,6 @@ d=0
 for f in range(10):
     if a(f):
         d=d+f
-        print( d) 
+        print(d) 
 
 print (d)
