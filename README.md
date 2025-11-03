@@ -29,5 +29,5 @@
 
 1. کلون کردن ریپو:
 ```bash
-git clone https://github.com/MrPoco2002/My-first.git
+git clone https://github.com/sineme333/learn.git
 cd My-first
