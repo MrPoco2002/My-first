@@ -141,6 +141,12 @@ for h in range(1,1001):
 
 print(g)
 
+def a(s) :
+    print("ali" + s)
+
+    for q in ["amir", "asal", "hossein"] :
+        a(q)
+        
 
 
 
