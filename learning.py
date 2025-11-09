@@ -175,6 +175,19 @@ for q in range (1, 1000) :
         w = w + q       
         print(w)
 
+def a (s) :
+    return s % 2 == 0
+
+w = 0
+e = 0
+q = 1
+while (e < 10) :
+    r = e + q
+    e = q
+    q = r
+    if a(e) :
+        w = w + e
+        print (w)
 
 
 
