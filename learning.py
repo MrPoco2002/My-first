@@ -158,12 +158,22 @@ def a(s) :
     for b in range (2, int(s**0.5)+1) :
         if s % b == 0 :
             w = False
+            break
     return w
             
         
 for q in range (1, 1001) :
     if a(q) :
         print(q)
+
+def a(s) :
+    return s % 3 == 0 or s % 5 == 0
+
+w=0
+for q in range (1, 1000) :
+    if a(q) :
+        w = w + q       
+        print(w)
 
 
 
