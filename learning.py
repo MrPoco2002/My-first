@@ -153,6 +153,20 @@ for q in ["hamid", "saeed", "mohsen", "nahid", "babak"] :
     a(q)
 
 
+def a(s) :
+    w = True
+    for b in range (2, int(s**0.5)+1) :
+        if s % b == 0 :
+            w = False
+    return w
+            
+        
+for q in range (1, 1001) :
+    if a(q) :
+        print(q)
+
+
+
 
 
 
