@@ -190,7 +190,6 @@ while (e < 10) :
         print (w)
 
 a = [1, 2, 3, "hassan", "morteza"]
-
 a
 a[0] 
 a[2]
