@@ -189,6 +189,15 @@ while (e < 10) :
         w = w + e
         print (w)
 
+a = [1, 2, 3, "hassan", "morteza"]
+
+a
+a[0] 
+a[2]
+a[3] = "alireza"
+a
+
+
 
 
 
