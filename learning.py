@@ -259,26 +259,3 @@ for w in range (0, 9) :
     a[w] = a[w] - 1
     a[s] = a[s] + 1
 a
-
-
-
-
-
-    
-
-
-
-    
-
-                   
-                   
-
-
-
-                    
-
-
-
-
-
-    random.randrange(0, 333)
