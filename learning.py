@@ -239,12 +239,23 @@ for w in range(0, 33) :
     a
     
 # False in a[30](most to be 81 not 82)
+# make random numbers + fix bug in below
 
 import random
 random.seed()
 for w in range(0, 5) :
     random.randrange(1, 30) 
 
+
+
+
+
+
+    
+
+
+
+    
 
                    
                    
@@ -256,3 +267,5 @@ for w in range(0, 5) :
 
 
 
+
+    random.randrange(0, 333)
