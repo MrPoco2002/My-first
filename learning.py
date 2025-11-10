@@ -238,14 +238,27 @@ for w in range(0, 33) :
     a[30] = a[30] + 1
     a
     
-# False in a[30](most to be 81 not 82)
-# make random numbers + fix bug in below
+# fix : random in below
 
 import random
 random.seed()
 for w in range(0, 5) :
     random.randrange(1, 30) 
 
+# fix : random in real story(jadi 15)
+
+
+a = []
+for w in range (0, 9) :
+    a.append(5) 
+
+import random
+random.seed ()
+for w in range (0, 9) :
+    s = random.randrange(0, 9)
+    a[w] = a[w] - 1
+    a[s] = a[s] + 1
+a
 
 
 
