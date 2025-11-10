@@ -207,14 +207,25 @@ a.count("alireza")
 
 
 
-a = [] 
-for w in range (0, 56) :
-    a.append(100)
-    a[w] = a[w] - 1
-    
+a = []
+for w in range(0, 33) :
+    a.append(50)
 
+while(a[2] < 100) :
+    a[2] = a[2] + 1
+    a[30] = a[30] - 1
+    a
 
+# Up by while(doing to get) and down by vibration(for)
 
+a = []
+for w in range(0, 33) :
+    a.append(50)
+
+for e in range(0, 50) :
+    a[2] = a[2] + 1
+    a[30] = a[30] - 1
+    a
 
 
 
