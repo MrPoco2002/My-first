@@ -229,6 +229,17 @@ for e in range(0, 50) :
 
 
 
+a = []
+for w in range (0, 33) :
+    a.append(50)
+
+for w in range(0, 33) :
+    a[w] = a[w] - 1
+    a[30] = a[30] + 1
+    a
+    
+
+
 
                    
                    
