@@ -259,3 +259,20 @@ for w in range (0, 9) :
     a[w] = a[w] - 1
     a[s] = a[s] + 1
 a
+
+# fix : random in real story v2(jadi 15)
+
+a = []
+for w in range(0, 10) :
+    a.append(50)
+
+import random
+random.seed 
+for x in range(0, 1000) :
+    for w in range(0, 10) :
+        s = random.randrange(0, 10) 
+        a[w] = a[w] - 1
+        a[s] = a[s] + 1
+        print(w, s, a)
+
+    
