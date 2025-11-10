@@ -238,7 +238,7 @@ for w in range(0, 33) :
     a[30] = a[30] + 1
     a
     
-
+# False in a[30](most to be 81 not 82)
 
 
                    
