@@ -190,11 +190,28 @@ while (e < 10) :
         print (w)
 
 a = [1, 2, 3, "hassan", "morteza"]
+
 a
 a[0] 
 a[2]
 a[3] = "alireza"
 a
+len(a)
+a.append("Hello")
+a
+a[1:4]
+a[3:]
+a[:3]
+a
+a.count("alireza")
+
+
+
+a = [] 
+for w in range (0, 56) :
+    a.append(100)
+    a[w] = a[w] - 1
+    
 
 
 
