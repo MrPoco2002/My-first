@@ -240,6 +240,11 @@ for w in range(0, 33) :
     
 # False in a[30](most to be 81 not 82)
 
+import random
+random.seed()
+for w in range(0, 5) :
+    random.randrange(1, 30) 
+
 
                    
                    
