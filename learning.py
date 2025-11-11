@@ -280,13 +280,12 @@ for x in range(0, 25) :
 a = []
 for w in range(4) :
     a.append(50)
-    a
 
 import random
 random.seed ()
 for e in range(3) :
-        for w in range(4) :
-            s = random.randrange(4) 
+    for w in range(4) :
+        s = random.randrange(4) 
         while(a[s] == 0) : 
             s = random.randrange(4)
         if a[w] == 0 :
