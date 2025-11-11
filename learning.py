@@ -268,7 +268,7 @@ for w in range(0, 10) :
 
 import random
 random.seed 
-for x in range(0, 1000) :
+for x in range(0, 25) :
     for w in range(0, 10) :
         s = random.randrange(0, 10) 
         a[w] = a[w] - 1
@@ -278,22 +278,28 @@ for x in range(0, 1000) :
 # fix : random 3 jadi 15
 
 a = []
-for w in range(0, 4) :
+for w in range(4) :
     a.append(50)
+    a
 
 import random
 random.seed ()
-for e in range(0, 3) :
-        for w in range(0, 4) :
-            s = random.randrange(0, 4) 
-            a[s] = a[s] - 25
-            a[s] = a[s] + 25
-            a
+for e in range(3) :
+        for w in range(4) :
+            s = random.randrange(4) 
+        while(a[s] == 0) : 
+            s = random.randrange(4)
+        if a[w] == 0 :
+            continue
+        a[w] = a[w] - 25
+        a[s] = a[s] + 25
+        a
+                    
+                
+
+            
 
             
 
 
     
-x = 5
-while(x < 1000) :
-    x*x
