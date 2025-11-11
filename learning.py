@@ -275,4 +275,25 @@ for x in range(0, 1000) :
         a[s] = a[s] + 1
         print(w, s, a)
 
+# fix : random 3 jadi 15
+
+a = []
+for w in range(0, 4) :
+    a.append(50)
+
+import random
+random.seed ()
+for e in range(0, 3) :
+        for w in range(0, 4) :
+            s = random.randrange(0, 4) 
+            a[s] = a[s] - 25
+            a[s] = a[s] + 25
+            a
+
+            
+
+
     
+x = 5
+while(x < 1000) :
+    x*x
