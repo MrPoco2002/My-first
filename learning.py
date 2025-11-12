@@ -283,7 +283,7 @@ for w in range(4) :
 
 import random
 random.seed ()
-for e in range(3) :
+for e in range(24) :
     for w in range(4) :
         s = random.randrange(4) 
         while(a[s] == 0) : 
@@ -299,7 +299,7 @@ for e in range(3) :
 import random
 random.seed ()
 q = [124] * 12
-for r in range(15) :
+for r in range(2) :
     for w in range(12) :
         e=random.randrange(12)
         if q[w] > 0 :
@@ -307,7 +307,27 @@ for r in range(15) :
             q[e] += 90
             q
 
+# chart(matplotlib) jadi 16
 
+import random
+random.seed ()
+a = [124] * 12
+for w in range(24) :
+    for e in range(12) :
+        s = random.randrange(12)
+        while(a[e] == 0) :
+            a[e] = 0
+        if a[e] < 1 :
+            continue
+        a[e] -= 70
+        a[s] += 70
+        a
+
+import matplotlib.pyplot as plt
+plt.bar(range(12), a)
+plt.show()
+
+        
 
 
             
