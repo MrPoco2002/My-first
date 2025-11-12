@@ -293,8 +293,22 @@ for e in range(3) :
         a[w] = a[w] - 25
         a[s] = a[s] + 25
         a
-                    
-                
+
+# if power jadi 15
+
+import random
+random.seed ()
+q = [124] * 12
+for r in range(15) :
+    for w in range(12) :
+        e=random.randrange(12)
+        if q[w] > 0 :
+            q[w] -= 90
+            q[e] += 90
+            q
+
+
+
 
             
 
