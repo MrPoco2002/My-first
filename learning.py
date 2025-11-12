@@ -327,7 +327,25 @@ import matplotlib.pyplot as plt
 plt.bar(range(12), a)
 plt.show()
 
-        
+# sort + chart for every changes jadi 16
+
+import random 
+import matplotlib.pyplot as plt
+random.seed ()
+a = [124] * 12
+for w in range(24) :
+    for e in range(12) :
+        s = random.randrange(12)
+        while(a[e] == 0) :
+            a[e] = 0
+        if a[e] < 1 :
+            continue
+        a[e] -= 70
+        a[s] += 70
+        a
+        plt.bar(range(12), a)
+        a.sort()
+        plt.show()
 
 
             
