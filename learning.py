@@ -406,7 +406,39 @@ for w in range(24) :
         plt.bar(range(12), sorted(a, reverse=True))
 plt.show()
 
-            
+# refactor : dictionary = {} also () and []
 
-
-    
+a = ()
+a
+s = []
+s
+d = {}
+d
+a = (1, 2, 3, 4, 5, "hassan", "karim")
+a
+s = [2, 3, 4, 5, 6, "kamal", "masod"]
+s
+s.append("hesam")
+s
+s[2] = 7
+s
+s[3] = "hamington"
+s
+d = {1, 2, 3, 4, 5, 6, "julasy", "happyness", "sadness"}
+d
+d = {1 : "q", 2 : "w", 3 : "e", "julast" : "worker", "happyness" : 7}
+d
+d.get(3)
+d.get("julast")
+d.get("hassan", "none")
+d.keys()
+d.values()
+"ali" in d
+"happyness" in d
+for w in d :
+    print(w)
+for w in d.items() :
+    print(w)
+for k, v in d.items() :
+    print("key is", k)
+    print("value is", v)
