@@ -406,7 +406,7 @@ for w in range(24) :
         plt.bar(range(12), sorted(a, reverse=True))
 plt.show()
 
-# refactor : dictionary = {} also () and []
+# refactor : dictionary = {} also () and [] jadi 17
 
 a = ()
 a
@@ -428,6 +428,14 @@ d = {1, 2, 3, 4, 5, 6, "julasy", "happyness", "sadness"}
 d
 d = {1 : "q", 2 : "w", 3 : "e", "julast" : "worker", "happyness" : 7}
 d
+d[7] = 8
+d
+d[8] = "hamid"
+d
+d["masod"] = 7
+d
+d["hamed"] = "neda"
+d
 d.get(3)
 d.get("julast")
 d.get("hassan", "none")
@@ -442,3 +450,7 @@ for w in d.items() :
 for k, v in d.items() :
     print("key is", k)
     print("value is", v)
+
+#pincode quastion jadi 18
+
+
