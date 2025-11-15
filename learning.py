@@ -457,6 +457,8 @@ for k, v in d.items() :
 # Classes jadi 18 
 
 a = "74"
+a[0]
+a[1]
 a(int)
 a(str)
 a.capitalize()
