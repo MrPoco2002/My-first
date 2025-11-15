@@ -473,3 +473,21 @@ for a in range(10) :
                 for g in range(10) :
                     if a + s + d + f + g == 30 and d + g == 14 and s + d == 10 and f - 1 == s and a + 1 == s * 2 :
                         print(a, s, d, f, g)
+
+# Pincode quastion jadi 18(Way 2) 
+
+for w in range(100000) :
+    q = str(w).zfill(5)
+    e = {}
+    e['z'] = int(q[0])
+    e['x'] = int(q[1])
+    e['c'] = int(q[2])
+    e['v'] = int(q[3])
+    e['b'] = int(q[4])
+    if e['z'] + e['x'] + e['c'] + e['v'] + e['b'] == 30 \
+    and e['c'] + e['b'] == 14 \
+    and e['x'] + e['c'] == 10 \
+    and e['v'] - 1 == e['x'] \
+        and e['z'] + 1 == e['x'] * 2 :
+        print(w)
+    
