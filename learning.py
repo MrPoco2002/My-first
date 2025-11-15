@@ -436,6 +436,8 @@ d["masod"] = 7
 d
 d["hamed"] = "neda"
 d
+d[2]
+d
 d.get(3)
 d.get("julast")
 d.get("hassan", "none")
@@ -443,6 +445,7 @@ d.keys()
 d.values()
 "ali" in d
 "happyness" in d
+"worker" in d
 for w in d :
     print(w)
 for w in d.items() :
@@ -451,6 +454,21 @@ for k, v in d.items() :
     print("key is", k)
     print("value is", v)
 
+# Classes jadi 18 
+
+a = "74"
+a(int)
+a(str)
+a.capitalize()
+a.zfill(7)
+
 #pincode quastion jadi 18
 
-
+for a in range(10) :
+    for s in range(10) :
+        for d in range(10) :
+            for f in range(10) :
+                for g in range(10) :
+                    for h in range(10) :
+                        if a + s + d + f + g + h == 30 and d + h == 14 and s + d == 10 and f + 1 == s and a - 1 == s * 2 :
+                            print(a, s, d, f, g, h)
