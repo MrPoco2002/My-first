@@ -1,0 +1,28 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+psycopg2-binary
+alembic
+python-jose
+passlib[bcrypt]
+python-dotenv
+requests
+PyGithub
+gitpython
+flake8
+bandit
+transformers
+torch      # یا torch-cpu
+datasets
+tokenizers
+sentencepiece
+redis
+rq
+celery     # اگر از celery استفاده می‌کنی
+fastapi-mail
+stripe
+sentry-sdk
+jinja2
+pytest
+pytest-asyncio
