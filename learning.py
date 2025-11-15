@@ -464,13 +464,12 @@ a(str)
 a.capitalize()
 a.zfill(7)
 
-#pincode quastion jadi 18
+#pincode quastion jadi 18(Way 1)
 
 for a in range(10) :
     for s in range(10) :
         for d in range(10) :
             for f in range(10) :
                 for g in range(10) :
-                    for h in range(10) :
-                        if a + s + d + f + g + h == 30 and d + h == 14 and s + d == 10 and f + 1 == s and a - 1 == s * 2 :
-                            print(a, s, d, f, g, h)
+                    if a + s + d + f + g == 30 and d + g == 14 and s + d == 10 and f - 1 == s and a + 1 == s * 2 :
+                        print(a, s, d, f, g)
