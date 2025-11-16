@@ -491,7 +491,7 @@ for w in range(100000) :
         and e['z'] + 1 == e['x'] * 2 :
         print(w)
     
-# API and json request library jadi 22
+# API and json and request library and interface(email or SMS) jadi 22
 
 import requests
 q = requests.get("https://api.jikan.moe/v4/anime/1", \
@@ -506,5 +506,8 @@ q.json()
 q.json()["data"]
 q.json()["data"]["url"]
 print("this anime is great and url is", q.json()["data"]["url"])
-
-
+def s() :
+    "API for sending information in my address like my email or sms in my phone"
+w = q.json()["data"]["url"]
+if w != w :
+    print(s())
