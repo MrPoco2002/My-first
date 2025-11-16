@@ -491,3 +491,15 @@ for w in range(100000) :
         and e['z'] + 1 == e['x'] * 2 :
         print(w)
     
+# API and json and standard library x jadi 22
+
+import requests
+q = requests.get("https://api.jikan.moe/v4/anime/1")
+q.status_code
+q.text
+q.headers
+q.encoding
+q.json()
+
+
+
