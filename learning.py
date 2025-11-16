@@ -494,7 +494,9 @@ for w in range(100000) :
 # API and json request library jadi 22
 
 import requests
-q = requests.get("https://api.jikan.moe/v4/anime/1", auth = ("user", "pass"), proxies = {"a" : "127.0.0.1:1080"})
+q = requests.get("https://api.jikan.moe/v4/anime/1", \
+auth = ("user", "pass"), \
+proxies = {"a" : "127.0.0.1:1080"})
 print(q)
 q.status_code
 q.text
