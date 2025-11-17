@@ -510,4 +510,6 @@ def s() :
     "API for sending information in my address like my email or sms in my phone"
 w = q.json()["data"]["url"]
 if w != w :
-    print(s())
+    print(s)
+
+# full API jadi 22
