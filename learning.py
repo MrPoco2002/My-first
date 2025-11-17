@@ -512,4 +512,11 @@ w = q.json()["data"]["url"]
 if w != w :
     print(s)
 
-# full API jadi 22
+# FastAPI  
+
+from fastapi import FastAPI
+app = FastAPI()
+@app.get("/")
+def read_root():
+    return{"Hello": "World"}
+    
