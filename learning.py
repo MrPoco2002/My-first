@@ -453,6 +453,8 @@ for w in d.items() :
 for k, v in d.items() :
     print("key is", k)
     print("value is", v)
+# {a} = set bigger than [a] = list
+
 
 # Classes jadi 18 
 
