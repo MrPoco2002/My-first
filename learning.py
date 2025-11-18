@@ -512,3 +512,13 @@ w = q.json()["data"]["url"]
 if w != w :
     print(s)
 
+# define in strings jadi 23
+
+w = "life"
+e = 1231415907324.23498
+r = 1470
+q = "mohammad is revolved in his life now nad he dosn't know about %s and others life" % w
+qq = "alireza want to be happy now, he haves %i dollars and is not happy" % r
+qqq = "%f peopls lived in this world now" %e
+print(q, qq, qqq)
+
