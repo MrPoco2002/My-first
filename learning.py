@@ -418,6 +418,7 @@ a = (1, 2, 3, 4, 5, "hassan", "karim")
 a
 s = [2, 3, 4, 5, 6, "kamal", "masod"]
 s
+[s]
 s.append("hesam")
 s
 s[2] = 7
