@@ -454,7 +454,7 @@ for w in d.items() :
 for k, v in d.items() :
     print("key is", k)
     print("value is", v)
-# {a} = set bigger than [a] = list
+# {a} = set, [a] = list, a set = list with random pririty and no same numbers
 
 
 # Classes jadi 18 
