@@ -470,6 +470,20 @@ a(int)
 a(str)
 a.capitalize()
 a.zfill(7)
+str(a)
+a
+float(a)
+a
+int(a)
+a
+set(a)
+a
+list(a)
+a
+dict(a)
+a
+function(a)
+a
 
 #pincode quastion jadi 18(Way 1)
 
