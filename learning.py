@@ -427,6 +427,10 @@ s[3] = "hamington"
 s
 d = {1, 2, 3, 4, 5, 6, "julasy", "happyness", "sadness"}
 d
+d.add(44)
+d
+d.remove(3)
+d
 d = {1 : "q", 2 : "w", 3 : "e", "julast" : "worker", "happyness" : 7}
 d
 d[7] = 8
@@ -454,7 +458,7 @@ for w in d.items() :
 for k, v in d.items() :
     print("key is", k)
     print("value is", v)
-# {a} = set, [a] = list, a set = list with random pririty and no same numbers
+# {a} = set, [a] = list, a set = list with no pririty and no same numbers and set haves | & - and set is faster than list
 
 
 # Classes jadi 18 
